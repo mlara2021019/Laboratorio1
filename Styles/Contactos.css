@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #00122c;
+}
+
+
+.contact-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 700px; 
+}
+
+h2 {
+    text-align: center;
+    color: #00122c;
+    margin-bottom: 10px;
+}
+
+
+.btn-add {
+    display: block;
+    text-align: center;
+    background-color: #d64400;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: background 0.3s ease;
+}
+
+.btn-add:hover {
+    background-color: #C78D08;
+}
+
+
+.contact-table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.contact-table th {
+    background-color: #f8f9fa;
+    color: #00122c;
+    text-align: left;
+    padding: 12px 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #d64400; 
+}
+
+
+.contact-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    color: #444;
+    font-size: 15px;
+}
+
+.zone-cell {
+    font-weight: bold;
+    color: #DEAB31;
+    text-align: right; 
+}
+
+
+.contact-table tbody tr {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.contact-table tbody tr:hover {
+    background-color: #a9c3e957;
+    transform: scale(1.01);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
